@@ -156,6 +156,7 @@ How it works: loads docs → vectorizes → retrieves by prompt → feeds into a
 - **Rules**: Ban sensitive words.
 
 ## Project Structure
+```bash
 AI ASSISTANT/
 ├── app/
 │   ├── core/
@@ -185,5 +186,5 @@ AI ASSISTANT/
 ├── docker-compose.yml
 ├── Dockerfile
 └── requirements.txt
-
+```
 
