@@ -1,7 +1,7 @@
 import re
 from fastapi import HTTPException
 
-banned_terms = ["classified", "confidential"]
+bad_words = ["classified", "confidential", "insider", "slur", "hate", "bully", "damn", "hell", "ass", "bitch", "shit", "fuck", "racist", "sexist", "homophobic", "bigot", "weed", "coke", "meth", "stoned", "kill", "murder", "assault", "weapon", "cheat", "plagiarize", "copycat", "douche", "loser", "suck", "crap", "porn", "nude", "sex", "kink"]
 
 async def check_query(q: str):
     for term in banned_terms:

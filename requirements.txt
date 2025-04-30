@@ -16,3 +16,4 @@ langchain-community
 streamlit
 streamlit-authenticator
 requests
+better_profanity

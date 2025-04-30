@@ -83,7 +83,7 @@ elif page == "Faculty Onboarding":
 
     # Step-tracker
     if "quiz_step" not in ss:
-        ss.quiz_step = 0     # 0=before generate, 1=checklist ready + quiz shown, 2=submitted
+        ss.quiz_step = 0     
     if "checklist_file" not in ss:
         ss.checklist_file = None
     if "onboard_quiz" not in ss:
@@ -168,6 +168,5 @@ elif page == "Faculty Onboarding":
             st.markdown(f"### 🎯 Your Score: {ss.onboard_score} / {len(ss.onboard_quiz)}")
 
 
-# ─── Footer ────────────────────────────────────────────────────────────────
 st.sidebar.markdown("---")
 st.sidebar.caption("© 2025 Anish Panicker")
